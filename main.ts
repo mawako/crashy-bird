@@ -38,8 +38,8 @@ basic.forever(function () {
     }
     for (let obstacle3 of obstacles) {
         if (obstacle3.get(LedSpriteProperty.X) == bird.get(LedSpriteProperty.X) && obstacle3.get(LedSpriteProperty.Y) == bird.get(LedSpriteProperty.Y)) {
+            music.playMelody("C5 A B G A F G E ", 177)
             game.gameOver()
-            music.playMelody("C5 A B G A F G E ", 120)
         }
     }
     ticks += 1
