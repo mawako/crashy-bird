@@ -1,6 +1,6 @@
 {
     "name": "Crashy Bird: The Sequel (The Game about Love and Betrayal)",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "",
     "dependencies": {
         "core": "*",
